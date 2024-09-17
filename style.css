@@ -17,7 +17,7 @@ header h1 {
 }
 
 main h1 {
-    color: #333; /* Schwarz für das h1 im Main */
+    color: rgb(166, 0, 0); /* Schwarz für das h1 im Main */
 }
 
 footer {
@@ -40,7 +40,7 @@ footer a:hover {
 
 .logo {
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     max-width: 150px;
     height: auto;
 }
