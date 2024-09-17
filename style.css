@@ -38,12 +38,12 @@ footer p + p {
     margin-left: 20px; /* Abstand zwischen den p-Elementen */
 }
 
-footer a {
+a {
     color: #666; /* Gleiche Farbe wie der Text, für ein dezentes Erscheinungsbild */
     text-decoration: none; /* Kein Unterstreichen der Links */
 }
 
-footer a:hover {
+a:hover {
     color: #333; /* Dunklere Farbe bei Hover */
 }
 
