@@ -73,6 +73,7 @@ main p {
     margin: 30px auto 0 auto;
     max-width: 600px;
     text-align: left;
+    display: flex;
 }
 
 .social-button {
@@ -98,6 +99,7 @@ main p {
     width: 100%;
     height: 100%;
     display: none; /* Anfangs nicht sichtbar */
+    transition: opacity 0.3s ease; /* Übergangseffekt für das Bild */
 }
 
 .social-button:hover .social-icon {
