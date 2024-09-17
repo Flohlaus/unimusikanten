@@ -29,6 +29,15 @@ footer {
     border-top: 1px solid #ddd; /* Leichter oberer Rand für Trennung */
 }
 
+footer p {
+    display: inline; /* Zeigt die Absätze in einer Zeile */
+    margin: 0;
+}
+
+footer p + p {
+    margin-left: 20px; /* Abstand zwischen den p-Elementen */
+}
+
 footer a {
     color: #666; /* Gleiche Farbe wie der Text, für ein dezentes Erscheinungsbild */
     text-decoration: none; /* Kein Unterstreichen der Links */
