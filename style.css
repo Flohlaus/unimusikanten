@@ -16,7 +16,7 @@ h1 {
     font-size: 2.5em;
     margin-top: 100px;
     margin-bottom: 50px
-    color: rgb(166, 0, 0); /* RGB-Farbe für die Überschrift */
+    font-color: rgb(166, 0, 0); /* RGB-Farbe für die Überschrift */
     font-family: 'Snell Roundhand', cursive; 
 }
 
@@ -35,7 +35,7 @@ footer p {
 }
 
 footer p + p {
-    margin-left: 200px; /* Abstand zwischen den p-Elementen */
+    margin-left: 20px; /* Abstand zwischen den p-Elementen */
 }
 
 footer a {
@@ -70,7 +70,7 @@ main {
 p {
     font-size: 1.2em;
     line-height: 1.6;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     max-width: 600px;
     text-align: left;
 }
