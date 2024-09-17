@@ -78,7 +78,7 @@ main p {
 .social-container {
     display: flex; /* Setzt die Social Buttons in eine Reihe */
     justify-content: center; /* Zentriert die Buttons horizontal */
-    gap: 20px; /* Abstand zwischen den Buttons */
+    gap: 50px; /* Abstand zwischen den Buttons */
     margin-top: 20px; /* Abstand nach oben */
 }
 .social-button {
@@ -86,7 +86,7 @@ main p {
     position: relative;
     width: auto; /* Breite des Buttons */
     height: 80px; /* Höhe des Buttons */
-    margin: 0 50px; /* Abstand zwischen den Buttons */
+    margin: 0; /* Abstand zwischen den Buttons */
     text-decoration: none; /* Kein Unterstreichen der Links */
 }
 
