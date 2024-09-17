@@ -50,7 +50,7 @@ a:hover {
 .logo {
     margin-top: 100px;
     margin-bottom: 0;
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -75,6 +75,12 @@ main p {
     text-align: left;
 }
 
+.social-container {
+    display: flex; /* Setzt die Social Buttons in eine Reihe */
+    justify-content: center; /* Zentriert die Buttons horizontal */
+    gap: 20px; /* Abstand zwischen den Buttons */
+    margin-top: 20px; /* Abstand nach oben */
+}
 .social-button {
     display: inline-block;
     position: relative;
