@@ -12,12 +12,13 @@ header {
     padding: 20px 0;
 }
 
-header h1 {
+h1 {
     color: rgb(166, 0, 0); /* Rot für das Header-h1 */
-}
-
-main h1 {
-    color: rgb(166, 0, 0); /* Schwarz für das h1 im Main */
+    font-size: 2.5em;
+    margin-top: 100px;
+    margin-bottom: 50px
+    color: rgb(166, 0, 0); /* RGB-Farbe für die Überschrift */
+    font-family: 'Snell Roundhand', cursive; 
 }
 
 footer {
