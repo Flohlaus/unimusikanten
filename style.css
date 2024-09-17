@@ -35,7 +35,7 @@ footer p {
 }
 
 footer p + p {
-    margin-left: 20px; /* Abstand zwischen den p-Elementen */
+    margin-left: 200px; /* Abstand zwischen den p-Elementen */
 }
 
 footer a {
