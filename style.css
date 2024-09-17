@@ -16,7 +16,7 @@ h1 {
     font-size: 2.5em;
     margin-top: 100px;
     margin-bottom: 50px
-    font-color: rgb(166, 0, 0); /* RGB-Farbe für die Überschrift */
+    color: rgb(166, 0, 0); /* RGB-Farbe für die Überschrift */
     font-family: 'Snell Roundhand', cursive; 
 }
 
