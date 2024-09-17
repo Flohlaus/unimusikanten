@@ -10,9 +10,25 @@ body {
 header {
     background-color: #FFFFFF;
     padding: 20px 0;
-    color: white;
 }
 
+footer {
+    background-color: #f1f1f1; /* Dezentes, helles Grau */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em; /* Kleinere Schriftgröße */
+    color: #666; /* Dezente Schriftfarbe */
+    border-top: 1px solid #ddd; /* Leichter oberer Rand für Trennung */
+}
+
+footer a {
+    color: #666; /* Gleiche Farbe wie der Text, für ein dezentes Erscheinungsbild */
+    text-decoration: none; /* Kein Unterstreichen der Links */
+}
+
+footer a:hover {
+    color: #333; /* Dunklere Farbe bei Hover */
+}
 
 .logo {
     margin-top: 100px;
