@@ -74,12 +74,13 @@ main p {
     max-width: 600px;
     text-align: left;
 }
+
 .social-button {
     display: inline-block;
     position: relative;
-    width: 40px; /* Breite des Buttons */
-    height: 40px; /* Höhe des Buttons */
-    margin: 0 10px; /* Abstand zwischen den Buttons */
+    width: 80px; /* Breite des Buttons */
+    height: 80px; /* Höhe des Buttons */
+    margin: 0 200px; /* Abstand zwischen den Buttons */
     text-decoration: none; /* Kein Unterstreichen der Links */
 }
 
