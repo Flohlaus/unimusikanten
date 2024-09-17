@@ -80,7 +80,7 @@ main p {
     position: relative;
     width: auto; /* Breite des Buttons */
     height: 80px; /* Höhe des Buttons */
-    margin: 0 200px; /* Abstand zwischen den Buttons */
+    margin: 0 50px; /* Abstand zwischen den Buttons */
     text-decoration: none; /* Kein Unterstreichen der Links */
 }
 
