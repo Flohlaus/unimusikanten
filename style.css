@@ -73,7 +73,6 @@ main p {
     margin: 30px auto 0 auto;
     max-width: 600px;
     text-align: left;
-    display: flex;
 }
 
 .social-button {
