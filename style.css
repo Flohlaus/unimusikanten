@@ -82,7 +82,7 @@ main p {
     margin-top: 20px; /* Abstand nach oben */
 }
 .social-button {
-    display: inline-block;
+    /*display: inline-block;*/
     position: relative;
     width: auto; /* Breite des Buttons */
     height: 80px; /* Höhe des Buttons */
