@@ -91,7 +91,6 @@ main p {
     text-decoration: none; /* Kein Unterstreichen der Links */
     flex-shrink: 0; /* Verhindert, dass die Buttons schrumpfen */
     flex-basis: auto; /* Basisgröße der Buttons */
-    max-width: 80px; /* Maximalbreite für die Buttons */
 }
 
 .social-icon {
