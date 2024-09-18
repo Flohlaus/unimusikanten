@@ -88,6 +88,8 @@ main p {
     height: 80px; /* Höhe des Buttons */
     margin: 0; /* Abstand zwischen den Buttons */
     text-decoration: none; /* Kein Unterstreichen der Links */
+    flex-shrink: 0; /* Verhindert, dass die Buttons schrumpfen */
+    flex-basis: auto; /* Basisgröße der Buttons */
 }
 
 .social-icon {
