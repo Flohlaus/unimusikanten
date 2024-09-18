@@ -84,8 +84,8 @@ main p {
 .social-button {
     /*display: inline-block;*/
     position: relative;
-    /*width: auto;  Breite des Buttons */
-    max-width: 106px;
+    width: auto; /* Breite des Buttons */
+    /*max-width: 120px;*/
     height: 80px; /* Höhe des Buttons */
     margin: 0; /* Abstand zwischen den Buttons */
     text-decoration: none; /* Kein Unterstreichen der Links */
