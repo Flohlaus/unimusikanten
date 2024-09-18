@@ -15,7 +15,7 @@ header {
 h1 {
     font-size: 2.5em;
     margin-top: 100px;
-    margin-bottom: 50px; /* Korrigiertes Semikolon */
+    margin-bottom: 50px;
     color: rgb(166, 0, 0); /* RGB-Farbe für die Überschrift */
     font-family: 'Snell Roundhand', cursive; 
 }
@@ -50,15 +50,15 @@ a:hover {
 .logo {
     margin-top: 100px;
     margin-bottom: 0;
-    max-width: 200px;
-    height: auto;
+    /*max-width: 200px;*/
+    height: 30vh;
 }
 
 .headbanner {
     max-width: 95%;
     max-height: 200px;
     height: auto;
-    margin-top: 100px;
+    margin-top: 60vh;
     margin-bottom: 50px;
     object-fit: cover;
 }
