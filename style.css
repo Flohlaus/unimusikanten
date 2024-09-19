@@ -82,11 +82,12 @@ main p {
     margin-top: 20px; /* Abstand nach oben */
 }
 .social-button {
-    /*display: inline-block;*/
+    display: flex;
     position: relative;
     width: auto; /* Breite des Buttons */
-    max-width: 120px;
+    /*max-width: 120px;*/
     height: 80px; /* Höhe des Buttons */
+    flex-grow: 0;
     margin: 0; /* Abstand zwischen den Buttons */
     text-decoration: none; /* Kein Unterstreichen der Links */
 }
