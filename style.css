@@ -85,7 +85,7 @@ main p {
     display: flex;
     position: relative;
     width: auto; /* Breite des Buttons */
-    /*max-width: 120px;*/
+    max-width: fit-content;
     height: 80px; /* Höhe des Buttons */
     flex-grow: 0;
     margin: 0; /* Abstand zwischen den Buttons */
