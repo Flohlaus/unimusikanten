@@ -85,7 +85,9 @@ main p {
     display: flex;
     position: relative;
     width: auto; /* Breite des Buttons */
-    max-width: fit-content;
+    max-width: -webkit-fit-content; /* Safari 10+ */
+    max-width: -moz-fit-content; /* Firefox */
+    max-width: fit-content; /* Standard */
     height: 80px; /* Höhe des Buttons */
     flex-grow: 0;
     margin: 0; /* Abstand zwischen den Buttons */
