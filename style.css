@@ -50,7 +50,6 @@ a:hover {
 .logo {
     margin-top: 100px;
     margin-bottom: 0;
-    /*max-width: 200px;*/
     height: 30vh;
 }
 
@@ -97,7 +96,7 @@ main p {
 .social-icon {
     width: 100%;
     height: 100%;
-    /*display: block;*/
+    display: flex
     transition: opacity 0.3s ease; /* Übergangseffekt für das Bild */
 }
 
