@@ -110,7 +110,7 @@ main p {
 }
 
 .social-button:hover .social-icon-hover {
-    opacity: 1; /* Bild ausblenden beim Hover */
+    opacity: 0; /* Bild ausblenden beim Hover */
 }
 
 .social-button:hover .social-icon {
