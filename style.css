@@ -105,14 +105,14 @@ main p {
     width: auto;
     height: 80px;
     object-fit: contain;
-    display: none; /* Anfangs nicht sichtbar */
+    opacity: 0; /* Anfangs nicht sichtbar */
     transition: opacity 0.3s ease; /* Übergangseffekt für das Bild */
 }
 
 .social-button:hover .social-icon {
-    opacity: 1; /* Bild ausblenden beim Hover */
+    opacity: 0; /* Bild ausblenden beim Hover */
 }
 
 .social-button:hover .social-icon-hover {
-    display: block; /* Hover-Bild anzeigen */
+    opacity: 1; /* Hover-Bild anzeigen */
 }
