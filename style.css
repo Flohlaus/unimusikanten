@@ -114,5 +114,5 @@ main p {
 }
 
 .social-button:hover .social-icon {
-    opacity: 0; /* Hover-Bild anzeigen */
+    display: block; /* Hover-Bild anzeigen */
 }
