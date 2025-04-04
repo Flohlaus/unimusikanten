@@ -1,118 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #FFFFFF; /* Hintergrund weiß */
-    color: #333;
-    text-align: center;
-}
-
-header {
-    background-color: #FFFFFF;
-    padding: 20px 0;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    color: rgb(166, 0, 0); /* RGB-Farbe für die Überschrift */
-    font-family: 'Snell Roundhand', cursive; 
-}
-
-footer {
-    background-color: #f1f1f1; /* Dezentes, helles Grau */
-    padding: 20px;
-    text-align: center;
-    font-size: 0.9em; /* Kleinere Schriftgröße */
-    color: #666; /* Dezente Schriftfarbe */
-    border-top: 1px solid #ddd; /* Leichter oberer Rand für Trennung */
-}
-
-footer p {
-    display: inline; /* Zeigt die Absätze in einer Zeile */
-    margin: 0;
-}
-
-footer p + p {
-    margin-left: 20px; /* Abstand zwischen den p-Elementen */
-}
-
-a {
-    color: #666; /* Gleiche Farbe wie der Text, für ein dezentes Erscheinungsbild */
-    text-decoration: none; /* Kein Unterstreichen der Links */
-}
-
-a:hover {
-    color: #333; /* Dunklere Farbe bei Hover */
-}
-
-.logo {
-    margin-top: 100px;
-    margin-bottom: 0;
-    height: 30vh;
-}
-
-.headbanner {
-    max-width: 95%;
-    max-height: 200px;
-    height: auto;
-    margin-top: 60vh;
-    margin-bottom: 50px;
-    object-fit: cover;
-}
-
-main {
-    padding: 20px;
-}
-
-main p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin: 30px auto 0 auto;
-    max-width: 600px;
-    text-align: left;
-}
-
-.social-container {
-    display: flex; /* Setzt die Social Buttons in eine Reihe */
-    justify-content: center; /* Zentriert die Buttons horizontal */
-    gap: 50px; /* Abstand zwischen den Buttons */
-    margin-top: 20px; /* Abstand nach oben */
-}
 .social-button {
     display: flex;
     position: relative;
-    width: auto; /* Breite des Buttons */
-    height: 80px; /* Höhe des Buttons */
-    margin: 0; /* Abstand zwischen den Buttons */
-    text-decoration: none; /* Kein Unterstreichen der Links */
-    overflow: hidden;
+    width: 80px; /* Einheitliche Größe für die Buttons */
+    height: 80px;
+    text-decoration: none;
+    overflow: hidden; /* Verhindert visuelles Flackern */
 }
 
-.social-icon {
-    width: auto;
-    height: 80px;
-    display: flex;
+.social-icon,
+.social-icon-hover {
+    position: absolute; /* Beide Icons exakt übereinander legen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Stellt sicher, dass beide Icons gleich groß sind */
+    height: 100%;
     object-fit: contain;
-    transition: opacity 0.3s ease; /* Übergangseffekt für das Bild */
+    transition: opacity 0.3s ease;
 }
 
 .social-icon-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: 80px;
-    object-fit: contain;
-    opacity: 0; /* Anfangs nicht sichtbar */
-    transition: opacity 0.3s ease; /* Übergangseffekt für das Bild */
+    opacity: 0; /* Standardmäßig unsichtbar */
 }
 
 .social-button:hover .social-icon {
-    opacity: 0; /* Bild ausblenden beim Hover */
+    opacity: 0; /* Normales Bild ausblenden */
 }
 
 .social-button:hover .social-icon-hover {
-    opacity: 1; /* Hover-Bild anzeigen */
+    opacity: 1; /* Hover-Bild einblenden */
 }
