@@ -109,10 +109,10 @@ main p {
     transition: opacity 0.3s ease; /* Übergangseffekt für das Bild */
 }
 
-.social-button:hover .social-icon {
+.social-button:hover .social-icon-hover {
     opacity: 1; /* Bild ausblenden beim Hover */
 }
 
-.social-button:hover .social-icon-hover {
+.social-button:hover .social-icon {
     display: block; /* Hover-Bild anzeigen */
 }
